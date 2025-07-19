@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#h1{
+    text-align: center;
+    margin: 10px auto;
+}
+.main {
+    margin: 20px auto;
+    width: 90%;
+    height: 300px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.parchi {
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.player1, .player2, .player3, .player4{
+    height: 90px;
+    width: 90px;
+    border: 1px solid gray;
+    display: block;
+    text-align: center;
+    background-color: beige;
+  
+}
+.btn-div{
+    display: flex;
+    justify-content: space-evenly
+}
+.result-h2{
+    margin-top: 20px;
+   text-align: center;
+
+}
+.result-div{
+margin-top: 20px;
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+}
+li{
+    list-style: none;
+    font-weight: 200;
+}
+h2{
+    display: inline-block;
+    width: 90%;
+}
